@@ -8,7 +8,7 @@ use App\Product;
 class ProductSpecification extends Model 
 {
 
-    protected $table = "productSpecification";
+    protected $table = "product_specification";
 
     /**
      * The attributes that are mass assignable.

@@ -10,7 +10,7 @@ class ProductReview extends Model
     /*
     * set database table name
     */
-    protected $table = "productReviews";
+    protected $table = "product_review";
 
     /*
     * Disable created_at and updated_at in table

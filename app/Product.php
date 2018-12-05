@@ -13,7 +13,7 @@ use App\Category;
 class Product extends Model 
 {
 
-    protected $table = "products";
+    protected $table = "product";
 
     /**
      * The attributes that are mass assignable.
