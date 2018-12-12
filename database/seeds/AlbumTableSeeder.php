@@ -12,6 +12,9 @@ class AlbumTableSeeder extends Seeder
 {
     public function run()
     {
-
+    	DB::table('album')->insert([
+		    'product_id' 	=> '1',
+		    'name'			=> 'default product album'
+        ]);
     }
 }

@@ -18,8 +18,9 @@ class CreateTableProductReview extends Migration
             $table->integer('product_id')->unsigned();
             $table->string('title');
             $table->text('description');
-            $table->date('reviewPlaced');
-            $table->boolean('recommend');
+            $table->date('review_date');
+            $table->tinyInteger('stars');
+            $table->boolean('recommended');
         });
     }
 
@@ -30,6 +31,6 @@ class CreateTableProductReview extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('productReviews');
+        Schema::dropIfExists('product_review');
     }
 }

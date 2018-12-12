@@ -28,6 +28,6 @@ class CreatProductSpecificationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('productSpecification');
+        Schema::dropIfExists('product_specification');
     }
 }
